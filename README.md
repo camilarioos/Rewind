@@ -1,305 +1,171 @@
-# 🎵 Time Capsule
+# 𝄞 Rewind
 
-> Explore a história da música através das décadas e crie sua própria cápsula musical.
+## Descrição
 
----
+O Rewind é uma plataforma para explorar a história da música através de diferentes décadas, permitindo que os usuários descubram músicas, artistas e gêneros musicais.
 
-## 📌 Descrição
+O projeto foi desenvolvido como uma proposta de sistema para a disciplina de Análise e Desenvolvimento de Sistemas, contemplando prototipação, modelagem, estrutura de dados e planejamento do MVP.
 
-O **Time Capsule** é uma aplicação web desenvolvida para permitir que os
-usuários explorem a história da música através de diferentes décadas.
+## Objetivo
 
-O sistema permite pesquisar músicas e artistas, navegar por diferentes
-períodos musicais, visualizar informações sobre músicas e artistas e salvar
-músicas favoritas em uma coleção pessoal.
+O objetivo do Rewind é proporcionar uma forma simples e organizada de explorar a história da música, permitindo que o usuário conheça músicas, artistas, gêneros e diferentes períodos musicais.
 
-O projeto tem como foco a **exploração musical, organização de informações
-e descoberta de músicas de diferentes épocas**.
+## Domínio
 
----
+O Rewind encontra-se atualmente em fase de prototipação. O protótipo navegável do sistema está disponível no Figma.
 
-## 🎯 Objetivo
+[🔗 Acessar o protótipo do Rewind](https://www.figma.com/make/7v6ZGL0HoGupoQr0IZmcZQ/Rewind?t=QFscNxq5hJNPiwJe-20&fullscreen=1)
 
-Criar uma plataforma que facilite a exploração da evolução da música ao longo
-das décadas, permitindo que o usuário descubra artistas e músicas e organize
-seus conteúdos favoritos.
+## Infraestrutura Técnica
 
----
-
-## 👥 Público-alvo
-
-- Pessoas interessadas em música;
-- Pessoas que gostam de conhecer músicas de diferentes épocas;
-- Usuários interessados na história da música;
-- Pessoas que desejam descobrir novos artistas.
-
----
-
-## 🌐 Domínio
-
-**Time Capsule:**  
-`https://timecapsule.com.br`
-
-> Domínio definido como proposta para o projeto acadêmico.
-
----
-
-# 🛠️ Tecnologias
+### Tecnologias planejadas para a aplicação
 
 | Tecnologia | Utilização |
-|---|---|
+| ---------- | ---------- |
 | HTML | Estrutura da aplicação |
 | CSS | Estilização e responsividade |
 | JavaScript | Interações e funcionalidades |
+
+### Ferramentas utilizadas no projeto
+
+| Ferramenta | Utilização |
+| ---------- | ---------- |
 | Figma | Prototipação da interface |
 | Git | Controle de versão |
 | GitHub | Versionamento e gerenciamento do projeto |
 
----
+### Tecnologias e ferramentas
 
-# 📱 Telas do sistema
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
-## 🏠 Página inicial
+## Metodologia
 
-Tela principal do sistema, apresentando o Time Capsule e permitindo que o
-usuário comece a explorar as diferentes décadas da música.
+O projeto utiliza princípios de metodologia ágil, organizando o desenvolvimento e o acompanhamento das atividades por meio de:
 
-![Página inicial](docs/images/home.png)
+- **Kanban**, para organizar e acompanhar o andamento das tarefas;
+- **GitHub Projects**, utilizado para gerenciar as tarefas e visualizar o fluxo de desenvolvimento;
+- **Git e GitHub**, para controle de versão e gerenciamento dos arquivos do projeto.
 
----
+O desenvolvimento é realizado de forma incremental, permitindo acompanhar a evolução do projeto desde a definição das funcionalidades até a prototipação, modelagem e planejamento do MVP.
 
-## 🔐 Login
+## Funcionalidades
 
-Permite que usuários cadastrados acessem sua conta.
+O protótipo do Rewind contempla as seguintes funcionalidades:
 
-![Login](docs/images/login.png)
+- Cadastro de usuários
+- Login
+- Exploração de músicas
+- Exploração por décadas
+- Visualização de detalhes das músicas
+- Visualização de artistas
+- Busca por músicas, artistas, gêneros e décadas
+- Filtros por década, gênero e artista
+- Salvamento de músicas na Minha Cápsula
+- Remoção de músicas da Minha Cápsula
+- Visualização do perfil do usuário
+- Edição de informações do perfil
+- Logout
 
----
+## Telas do Sistema
 
-## 📝 Cadastro
+O protótipo completo do Rewind foi desenvolvido no Figma, contemplando as principais telas, funcionalidades e fluxos de navegação do sistema.
 
-Permite que novos usuários criem uma conta na plataforma.
+### Principais telas
 
-![Cadastro](docs/images/cadastro.png)
+- Login
+- Cadastro
+- Página inicial
+- Explorar
+- Décadas
+- Detalhes da música
+- Artistas
+- Minha Cápsula
+- Busca
+- Perfil
+- Sobre
 
----
+[🔗 Acessar o protótipo completo no Figma](https://www.figma.com/make/7v6ZGL0HoGupoQr0IZmcZQ/Rewind?t=pMCELzlKMdZOd0Ju-20&fullscreen=1) 
 
-## 🎵 Explorar
+## Diagramas UML
 
-Área principal para descoberta de músicas e artistas.
+Os diagramas UML representam os principais fluxos e interações do sistema Rewind.
 
-O usuário pode pesquisar e utilizar filtros por gênero e década.
+- [UML — Cadastro](Diagramas/UML_Cadastro.md)
+- [UML — Login](Diagramas/UML_Login.md)
+- [UML — Explorar](Diagramas/UML_Explorar.md)
+- [UML — Detalhes da Música](Diagramas/UML_DetalhesMúsica.md)
+- [UML — Minha Cápsula](Diagramas/UML_MinhaCapsula.md)
 
-![Explorar](docs/images/explorar.png)
+## Fluxograma
 
----
+Foi desenvolvido um fluxograma utilizando o Flowgorithm para representar a lógica do processo de cadastro de usuário.
 
-## 📀 Detalhes da música
+- [Fluxograma — Cadastro](Fluxogramas/Cadastro.pdf)
 
-Apresenta informações detalhadas sobre uma música selecionada.
+## Estrutura dos Dados
 
-![Detalhes da música](docs/images/detalhes-musica.png)
+Os dados do Rewind foram organizados em tabelas, sendo uma tabela para cada tipo de dado utilizado no sistema.
 
----
+As tabelas contemplam:
 
-## 🎤 Artista
+- Usuários
+- Músicas
+- Artistas
+- Gêneros
+- Décadas
 
-Apresenta informações sobre o artista e suas músicas relacionadas.
+[🔗 Acessar as planilhas do projeto](https://docs.google.com/spreadsheets/d/1ld0ODHkWhoz7P12CJEaab214epoBHkHrZ0GBSPSNsro/edit?gid=0#gid=0)
 
-![Artista](docs/images/artista.png)
+## Roadmap do MVP
 
----
+### Etapa 1 — Estrutura e prototipação
 
-## ⏳ Linha do Tempo
+- [x] Definição do conceito do Rewind
+- [x] Levantamento das principais funcionalidades
+- [x] Criação do protótipo no Figma
 
-Permite navegar pela evolução da música através das décadas.
+### Etapa 2 — Modelagem
 
-![Linha do tempo](docs/images/linha-do-tempo.png)
+- [x] Criação dos diagramas UML
+- [x] Definição da estrutura dos dados
+- [x] Criação das tabelas no Google Planilhas
+- [x] Criação do fluxograma de cadastro
 
----
+### Etapa 3 — Documentação
 
-## ❤️ Minha Cápsula
+- [x] Estruturação do repositório
+- [x] Organização dos diagramas
+- [x] Criação do README.md
+- [x] Documentação das funcionalidades
 
-Área pessoal onde ficam armazenadas as músicas favoritas do usuário.
+### Etapa 4 — Implementação do MVP
 
-![Minha Cápsula](docs/images/minha-capsula.png)
+- [ ] Desenvolvimento da interface em HTML e CSS
+- [ ] Implementação das interações com JavaScript
+- [ ] Implementação do cadastro e login
+- [ ] Implementação da exploração de músicas
+- [ ] Implementação da Minha Cápsula
+- [ ] Implementação da busca e filtros
+- [ ] Testes e validação
 
----
-
-## 👤 Perfil
-
-Área com informações do usuário e suas estatísticas dentro da plataforma.
-
-![Perfil](docs/images/perfil.png)
-
----
-
-# 📋 Requisitos funcionais
-
-| Código | Requisito |
-|---|---|
-| RF01 | O sistema deve permitir o cadastro de usuários. |
-| RF02 | O sistema deve permitir o login de usuários. |
-| RF03 | O sistema deve permitir explorar músicas por década. |
-| RF04 | O sistema deve permitir pesquisar músicas e artistas. |
-| RF05 | O sistema deve permitir filtrar músicas por gênero. |
-| RF06 | O sistema deve permitir visualizar detalhes de uma música. |
-| RF07 | O sistema deve permitir visualizar informações de artistas. |
-| RF08 | O sistema deve permitir adicionar músicas aos favoritos. |
-| RF09 | O sistema deve permitir remover músicas dos favoritos. |
-| RF10 | O sistema deve permitir visualizar a coleção de músicas favoritas. |
-| RF11 | O sistema deve permitir editar informações do perfil. |
-| RF12 | O sistema deve permitir encerrar a sessão do usuário. |
-
----
-
-# 👤 Histórias de usuário
-
-### US01 — Cadastro
-
-> **Como** visitante,  
-> **quero** criar uma conta,  
-> **para** poder utilizar os recursos personalizados do sistema.
-
-### US02 — Explorar músicas
-
-> **Como** usuário,  
-> **quero** explorar músicas de diferentes décadas,  
-> **para** conhecer a evolução da música.
-
-### US03 — Pesquisar músicas
-
-> **Como** usuário,  
-> **quero** pesquisar músicas e artistas,  
-> **para** encontrar conteúdos específicos.
-
-### US04 — Favoritar músicas
-
-> **Como** usuário,  
-> **quero** favoritar músicas,  
-> **para** criar minha própria coleção musical.
-
-### US05 — Visualizar minha cápsula
-
-> **Como** usuário,  
-> **quero** visualizar minhas músicas favoritas,  
-> **para** acessar facilmente as músicas que escolhi.
-
----
-
-# ✅ Critérios de aceitação
-
-### US04 — Favoritar músicas
-
-- [ ] O usuário deve estar autenticado.
-- [ ] O usuário deve conseguir adicionar uma música aos favoritos.
-- [ ] O usuário deve conseguir remover uma música dos favoritos.
-- [ ] A música favoritada deve aparecer em "Minha Cápsula".
-- [ ] O estado do favorito deve permanecer após atualizar a página.
-
----
-
-# 📊 Estrutura de dados
-
-Os dados do sistema foram organizados de acordo com as principais entidades
-utilizadas pela aplicação.
-
-### Entidades
-
-- Usuário
-- Música
-- Artista
-- Gênero
-- Década
-- Favorito
-
-### Google Planilhas
-
-[📊 Acessar planilha de dados](LINK_DA_PLANILHA)
-
-A planilha contém uma tabela para cada tipo de dado utilizado no sistema.
-
----
-
-# 📐 Diagramas UML
-
-## Diagrama de casos de uso
-
-![Diagrama de casos de uso](docs/uml/casos-de-uso.png)
-
-## Diagrama de classes
-
-![Diagrama de classes](docs/uml/classes.png)
-
-## Diagrama de atividade
-
-![Diagrama de atividade](docs/uml/atividade.png)
-
----
-
-# 🚀 MVP
-
-O **MVP (Minimum Viable Product)** do Time Capsule concentra as
-funcionalidades essenciais para a exploração musical.
-
-### Funcionalidades do MVP
-
-- [x] Página inicial
-- [x] Exploração por décadas
-- [x] Visualização de músicas
-- [x] Visualização de artistas
-- [x] Pesquisa
-- [x] Filtros
-- [x] Cadastro
-- [x] Login
-- [x] Favoritos
-- [x] Minha Cápsula
-
----
-
-# 🗺️ Roadmap
-
-## Versão 0.1 — Estrutura inicial
-
-- [x] Definição do problema
-- [x] Definição do público-alvo
-- [x] Definição dos requisitos
-- [x] Protótipo das telas
-
-## Versão 0.2 — MVP
-
-- [x] Cadastro
-- [x] Login
-- [x] Exploração por décadas
-- [x] Pesquisa
-- [x] Filtros
-- [x] Favoritos
-- [x] Minha Cápsula
-
-## Versão 0.3 — Expansão
-
-- [ ] Playlists
-- [ ] Pesquisa avançada
-- [ ] Mais filtros
-- [ ] Estatísticas musicais
-
-## Versão 1.0 — Evolução
-
-- [ ] Recomendações personalizadas
-- [ ] Integração com APIs musicais
-- [ ] Novas formas de exploração musical
-
----
-
-# 📌 Processo de desenvolvimento
-
-O projeto utiliza **Git e GitHub** para controle de versão e organização
-do desenvolvimento.
-
-As tarefas são organizadas através do **GitHub Projects**, utilizando um
-quadro para acompanhar o andamento das atividades.
-
-### Fluxo de trabalho
+## Estrutura do Projeto
 
 ```text
-A fazer → Em andamento → Em revisão → Pronto
+Rewind/
+│
+├── Diagramas/
+│   ├── UML_Cadastro.md
+│   ├── UML_DetalhesMúsica.md
+│   ├── UML_Explorar.md
+│   ├── UML_Login.md
+│   └── UML_MinhaCapsula.md
+│
+├── Fluxogramas/
+│   └── Cadastro.pdf
+│
+└── README.md
