@@ -169,3 +169,7 @@ Rewind/
 │   └── Cadastro.pdf
 │
 └── README.md
+```
+**ᗢ Autora:** Camila Rios
+
+
